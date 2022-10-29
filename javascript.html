@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    let firstName = prompt("What is your name?");
+    firstName = firstName.trim();
+    if (firstName.length > 0) {
+      alert("Welcome, " + firstName + "!");
+    } else {
+      alert("Too bad for you");
+    }
+
+    var i;
+    var y = 6;
+    var x = "oooo";
+    for (i = 0; i < x.length; i++) {
+      y += i;
+    }
+    console.log(y);
+
+    var name1 = "john";
+    var name2 = "jack";
+    var name3 = "jason";
+    var x = name1[0] + name2[3] + name3[5];
+
+    var went = true;
+    var going = went ? "yes" : "no";
+    console.log(going);
+
+    var x = 1;
+
+    function addTwo() {
+      x = x + 2;
+    }
+
+    addTwo();
+    x = x + 1;
+    console.log(x);
+  </script>
+</html>
